@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/kakunin.css">
+  <title>確認画面</title>
+</head>
+
+<body>
+  <h1>確認画面</h1>
+  <table>
+    <tbody>
+      <tr>
+        <th>お名前</th>
+        <td class="name"></td>
+      </tr>
+      <tr>
+        <th>ふりがな</th>
+        <td class="nameKana"></td>
+      </tr>
+      <tr>
+        <th>年齢</th>
+        <td class="age2"></td>
+      </tr>
+      <tr>
+        <th>性別</th>
+        <td class="genderText"></td>
+      </tr>
+      <tr>
+        <th>電話番号</th>
+        <td class="telNumText"></td>
+      </tr>
+      <tr>
+        <th>郵便番号</th>
+        <td class="zipText"></td>
+      </tr>
+      <tr>
+        <th>都道府県</th>
+        <td class="prefText"></td>
+      </tr>
+      <tr>
+        <th>市区町村(町名まで)</th>
+        <td class="cityText"></td>
+      </tr>
+      <tr>
+        <th>番地</th>
+        <td class="addText"></td>
+      </tr>
+      <tr>
+        <th>メールアドレス</th>
+        <td class="mailText"></td>
+      </tr>
+    </tbody>
+  </table>
+  <p></p>
+  <input type="button" value="入力画面に戻る" class="back">
+  <input type="button" value="送信" class="req"><br>
+  <iframe src="https://maps.google.co.jp/maps?output=embed" width="800" height="450" style="border:0;"
+    allowfullscreen="" loading="lazy">
+  </iframe>
+
+  <script src="JavaScript/kakunin.js"></script>
+</body>
+</html>
