@@ -4,6 +4,10 @@
 簡単な入力フォームです。<br>
 html、css、JavaScriptで作成しました。<br>
 GitHub Pagesの特性上、静的コンテンツしかアップロードできない為、入力した情報がこちらに送信されることはありません。
+### 開発環境
+開発環境：Visual Studio Code<br>
+開発言語：html, css, JavaScript<br>
+[![My Skills](https://skillicons.dev/icons?i=vscode,html,css,js)](https://skillicons.dev)
 ### 注意事項
 iOS、ipadOS、Androidでは正しく動作しない可能性があります。
 ## リンク
